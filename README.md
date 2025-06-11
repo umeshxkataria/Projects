@@ -11,7 +11,7 @@ Now? Welcome to my **Projects Vault** — a clean structure where every build ha
 ---
 
 ## 📂 Folder Structure
-projects/
+'''projects/
     ├── vibecoded/
     │ └── Personal builds with raw ideas, chaotic prototypes & pure vibes
     ├── web2/
@@ -20,7 +20,7 @@ projects/
     │ └── Blockchain-based builds (dApps, smart contracts, NFTs, etc.)
     ├── designing/
     │ └──UI/UX explorations, Figma files, and creative workflows
-
+'''
 
 ---
 
