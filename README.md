@@ -10,8 +10,8 @@ Now? Welcome to my **Projects Vault** — a clean structure where every build ha
 
 ---
 
-<pre> 📂 Folder Structure
-projects/
+ 📂 Folder Structure
+```projects/
     ├── **vibecoded**/
     │ └── Personal builds with raw ideas, chaotic prototypes & pure vibes
     ├── **web2**/
@@ -19,7 +19,7 @@ projects/
     ├── **web3**/
     │ └── Blockchain-based builds (dApps, smart contracts, NFTs, etc.)
     ├── **designing**/
-    │ └──UI/UX explorations, Figma files, and creative workflows </pre>
+    │ └──UI/UX explorations, Figma files, and creative workflows```
 
 ---
 
