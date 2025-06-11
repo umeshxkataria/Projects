@@ -10,7 +10,7 @@ Now? Welcome to my **Projects Vault** — a clean structure where every build ha
 
 ---
 
-<pre> ## 📂 Folder Structure
+<pre> 📂 Folder Structure
 projects/
     ├── **vibecoded**/
     │ └── Personal builds with raw ideas, chaotic prototypes & pure vibes
