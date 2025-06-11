@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ff07b14a-5fae-422a-86e2-f3670afcdf2f)# 🧠 Projects Vault
+# 🧠 Projects Vault
 
 > Coffee without coffee? That’s what a project repo without structure is.  
 > This is where all the chaos gets organized.
