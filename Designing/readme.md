@@ -3,7 +3,7 @@
 </p>
 
 
-# 🎨 designing/
+# 🎨 designing
 
 > Not every line of creativity is code. Sometimes it’s Figma.
 
@@ -55,4 +55,4 @@ This folder captures that process. The rough sketches, the flashes of brilliance
 
 ---
 
-> 🎨 designing/ — where pixels get purpose, and flows get form.
+> 🎨 designing — where pixels get purpose, and flows get form.
