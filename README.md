@@ -1,4 +1,4 @@
-# 🧠 Projects Vault
+![image](https://github.com/user-attachments/assets/ff07b14a-5fae-422a-86e2-f3670afcdf2f)# 🧠 Projects Vault
 
 > Coffee without coffee? That’s what a project repo without structure is.  
 > This is where all the chaos gets organized.
@@ -12,13 +12,13 @@ Now? Welcome to my **Projects Vault** — a clean structure where every build ha
 
 <pre> ## 📂 Folder Structure
 projects/
-    ├── vibecoded/
+    ├── **vibecoded**/
     │ └── Personal builds with raw ideas, chaotic prototypes & pure vibes
-    ├── web2/
+    ├── **web2**/
     │ └── Full-stack & frontend projects (React, Node.js, APIs, etc.)
-    ├── web3/
+    ├── **web3**/
     │ └── Blockchain-based builds (dApps, smart contracts, NFTs, etc.)
-    ├── designing/
+    ├── **designing**/
     │ └──UI/UX explorations, Figma files, and creative workflows </pre>
 
 ---
