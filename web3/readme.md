@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://yourdomain.com/banner.png" alt="Web3 Playground Banner" />
+  <img src="https://github.com/user-attachments/assets/cfc41544-f2d8-4efc-be92-3c1430a5f4b5" />
 </p>
 
 # 🌐 Web3 Playground
