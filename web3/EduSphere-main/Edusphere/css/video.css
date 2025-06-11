@@ -1,0 +1,54 @@
+/* Ensure the video container fills the space where the poster image is */
+.video-frame {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    /* This is 16:9 aspect ratio (height/width * 100 = 9/16 * 100) */
+    background: #000;
+    overflow: hidden;
+}
+
+/* Video container styling */
+#video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+    /* Initially hidden */
+}
+
+/* Style the video to fill the container */
+#video-player {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the video covers the container while maintaining aspect ratio */
+}
+
+/* Optional: Style the poster image */
+.video-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensure the poster image fills the container */
+}
+
+/* Cross (X) Button Styling */
+#close-video {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#close-video:hover {
+    color: red;
+}
