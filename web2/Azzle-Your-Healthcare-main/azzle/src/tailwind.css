@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-screen font-body text-lg leading-[1.66] text-colorCodGray;
+  }
+
+  a {
+    @apply transition-all duration-300 ease-linear;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-dmSans font-bold leading-none -tracking-[2px] text-black;
+  }
+
+  h1 {
+    @apply text-5xl md:text-6xl lg:text-7xl xl:text-[100px] xxl:text-[120px];
+  }
+
+  h2 {
+    @apply text-4xl lg:text-6xl xl:text-7xl xxl:text-[80px];
+  }
+
+  h4 {
+    @apply text-3xl leading-[1.33] tracking-normal;
+  }
+
+  h5 {
+    @apply text-2xl leading-[1.28] lg:text-[28px];
+  }
+}
+
+@layer components {
+  .button {
+    @apply relative z-[1] inline-flex overflow-hidden border px-[25px] py-[10px] text-center text-base font-bold leading-[1.5] transition-all duration-300 after:absolute after:inset-0 after:left-0 after:top-0 after:-z-[1] after:origin-top-right after:scale-y-0 after:duration-300 hover:after:scale-y-100;
+  }
+}
+
+/* Main Wrapper */
+.main-wrapper {
+  @apply overflow-hidden;
+}
+
+.global-container {
+  @apply mx-auto max-w-[1332px] px-4;
+}
+
+.custom-container {
+  @apply mx-auto max-w-full px-4 xl:max-w-[1332px];
+}
+
+.price-button {
+  @apply inline-block rounded-[50px] px-10 py-[15px] font-body transition-all duration-300 ease-in-out;
+}
+
+.price-button.active {
+  @apply bg-black text-white;
+}
+
+.faq-button {
+  @apply rounded-[50px] border-[1px] border-[#EAEDF0] bg-white px-6 py-5 font-bold text-black;
+}
+
+.faq-button.active {
+  @apply bg-black text-white;
+}
+
+/* Breadcrumb */
+.breadcrumb-wrapper {
+  @apply mb-20 rounded-bl-[30px] rounded-br-[30px] bg-colorLinenRuffle pb-16 pt-24 lg:rounded-bl-[50px] lg:rounded-br-[50px] lg:pb-24 lg:pt-36 xl:mb-32 xl:pb-[130px] xl:pt-[195px];
+}
+
+.breadcrumb-block {
+  @apply text-center;
+}
+
+.breadcrumb-title {
+  @apply mx-auto mb-8 max-w-[500px] md:mb-12 lg:max-w-[768px] xl:max-w-[1076px];
+}
+
+.breadcrumb-nav {
+  @apply flex flex-wrap items-center justify-center gap-x-11 text-xl font-semibold;
+}
+
+.breadcrumb-nav li {
+  @apply relative text-black after:absolute after:-right-8 after:top-1/2 after:h-5 after:w-5 after:-translate-y-1/2 after:bg-[url(../img/cheveron-right.svg)] after:bg-cover last:text-colorOrangyRed last:after:bg-none;
+}
+
+.breadcrumb-nav a {
+  @apply text-black hover:text-colorOrangyRed;
+}
+
+.testimonial-nav {
+  @apply relative mt-8 xxl:mt-0 justify-center xxl:justify-normal xxl:absolute -bottom-[50] left-1/2 z-[2] flex gap-x-6 xxl:bottom-6 -translate-x-1/2 xxl:translate-x-0;
+}
+
+.testimonial-nav-dir {
+  @apply relative flex h-[50px] w-[50px] items-center justify-center rounded-[50%] bg-[#EAEDF0] transition-all duration-300 hover:bg-colorViolet;
+}
+
+.testimonial-nav-dir img {
+  @apply transition-all duration-300 first:opacity-100 last:absolute last:opacity-0 first:hover:opacity-0 last:hover:opacity-100;
+}
+
+/* Footer */
+.footer-section.is-theme-1 {
+  @apply relative z-[1] -mt-[70px] overflow-hidden rounded-tl-[50px] rounded-tr-[50px] bg-colorLinenRuffle;
+}
+
+.footer-top {
+  @apply pb-[60px] pt-20 xl:pb-[100px] xl:pt-[130px];
+}

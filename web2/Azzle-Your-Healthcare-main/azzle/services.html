@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azzle</title>
+    <meta name="description" content="AIMass Tailwind based SASS Template" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/img/favicon.png" />
+
+    <!-- site font -->
+    <link href="assets/fonts/fonts.css" rel="stylesheet" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
+</head>
+
+<body>
+    <div class="page-wrapper relative z-[1] bg-white">
+        <!--...::: Header Start :::... -->
+        <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
+            <div class="global-container">
+                <div class="flex items-center justify-between gap-x-8">
+                    <!-- Header Logo -->
+                    <a href="index.html" class="">
+                        <img src="assets/img/logo-dark.png" alt="AIMass" width="96" height="24" />
+                    </a>
+                    <!-- Header Logo -->
+
+                    <!-- Header Navigation -->
+                    <div class="menu-block-wrapper">
+                        <div class="menu-overlay"></div>
+                        <nav class="menu-block" id="append-menu-header">
+                            <div class="mobile-menu-head">
+                                <div class="go-back">
+                                    <img class="dropdown-icon" src="assets/img/icon-black-long-arrow-right.svg"
+                                        alt="cheveron-right" width="16" height="16" />
+                                </div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close">&times;</div>
+                            </div>
+                            <ul class="site-menu-main">
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="teams.html" class="nav-link-item drop-trigger">Meet Our Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link-item">About Us</a>
+                                </li>
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="services.html" class="nav-link-item drop-trigger">Our Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link-item">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Header Navigation -->
+                </div>
+            </div>
+        </header>
+        <!--...::: Header End :::... -->
+
+        <main class="main-wrapper relative overflow-hidden">
+            <!--...::: Breadcrumb Section Start :::... -->
+            <section id="section-breadcrumb">
+                <!-- Section Spacer -->
+                <div class="breadcrumb-wrapper">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <div class="breadcrumb-block">
+                            <h1 class="breadcrumb-title">Our Services</h1>
+                            <ul class="breadcrumb-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li>Our Services</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Breadcrumb Section End :::... -->
+
+            <!--...::: Service Section Start :::... -->
+            <section id="section-service">
+                <!-- Section Spacer -->
+                <div class="pb-20 xl:pb-[150px]">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <!-- Section Content Block -->
+                        <div class="jos mb-10 text-center lg:mb-16 xl:mb-20">
+                            <div class="mx-auto max-w-md lg:max-w-xl xl:max-w-[950px]">
+                                <h2>We provide smart AI solutions for all Healthcare tasks</h2>
+                            </div>
+                        </div>
+                        <!-- Section Content Block -->
+                        <!-- Service List -->
+                        <ul
+                            class="jos grid grid-cols-1 gap-[2px] overflow-hidden rounded-[10px] border-2 border-black bg-black sm:grid-cols-2 lg:grid-cols-4">
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-1.svg" alt="service-icon-black-1"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-1.svg" alt="service-icon-orange-1"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </div>
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a href="service-details.html" class="hover:text-colorOrangyRed">
+                                        Resource Flexibility
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
+                                    This is an excellent option for people.
+                                </p>
+
+                                <a href="service-details.html"
+                                    class="relative inline-block h-[30px] w-[30px] duration-300">
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                            </li>
+                            <!-- Service Item -->
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-2.svg" alt="service-icon-black-2"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-2.svg" alt="service-icon-orange-1"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </div>
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a href="service-details.html" class="hover:text-colorOrangyRed">
+                                        Managed Services
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
+                                    This is an excellent option for people to get to know about their health.
+                                </p>
+
+                                <a href="service-details.html"
+                                    class="relative inline-block h-[30px] w-[30px] duration-300">
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                                <!-- Features Item -->
+                                <!-- Features Item -->
+                            </li>
+                            <!-- Service Item -->
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-3.svg" alt="service-icon-black-3"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-3.svg" alt="service-icon-orange-3"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </div>
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a href="service-details.html" class="hover:text-colorOrangyRed">
+                                        Web-Based Access
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
+                                    Can be used anywhere.
+                                </p>
+
+                                <a href="service-details.html"
+                                    class="relative inline-block h-[30px] w-[30px] duration-300">
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                            </li>
+                            <!-- Service Item -->
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-4.svg" alt="service-icon-black-4"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-4.svg" alt="service-icon-orange-4"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </div>
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a href="service-details.html" class="hover:text-colorOrangyRed">
+                                        Resource Flexibility
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
+                                    Backedby Gemini-4 Api
+                                </p>
+
+                                <a href="service-details.html"
+                                    class="relative inline-block h-[30px] w-[30px] duration-300">
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                            </li>
+                            <!-- Service Item -->
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-5.svg" alt="service-icon-black-5"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-5.svg" alt="service-icon-orange-5"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </div>
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a href="service-details.html" class="hover:text-colorOrangyRed">
+                                        Anomaly Detection
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
+                                    Can predict health issues correctly.
+                                    
+                                    
+
+                                    ‎‎‎‎
+
+
+                                    ‎‎‎
+
+                                </p>
+
+                                <a href="service-details.html"
+                                    class="relative inline-block h-[30px] w-[30px] duration-300">
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                            </li>
+                            <!-- Service Item -->
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-6.svg" alt="service-icon-black-6"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-6.svg" alt="service-icon-orange-6"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </div>
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a href="service-details.html" class="hover:text-colorOrangyRed">
+                                        Predictive Analytics
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
+                                    Solutions that use AI to predict Health trends and outcomes.
+                                </p>
+
+                                <a href="service-details.html"
+                                    class="relative inline-block h-[30px] w-[30px] duration-300">
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                                <!-- Features Item -->
+                                <!-- Features Item -->
+                            </li>
+                            <!-- Service Item -->
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-7.svg" alt="service-icon-black-7"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-7.svg" alt="service-icon-orange-7"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </div>
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a href="service-details.html" class="hover:text-colorOrangyRed">
+                                        Speech Recognition
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
+                                    Speech recognition services convert spoken language into
+                                    text and accessibility.
+                                </p>
+
+                                <a href="service-details.html"
+                                    class="relative inline-block h-[30px] w-[30px] duration-300">
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                            </li>
+                            <!-- Service Item -->
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-8.svg" alt="service-icon-black-8"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-8.svg" alt="service-icon-orange-8"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </div>
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a href="service-details.html" class="hover:text-colorOrangyRed">
+                                        Computer Vision
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
+                                    Computer vision services use AI to interpret and process
+                                    visual information.
+                                </p>
+
+                                <a href="service-details.html"
+                                    class="relative inline-block h-[30px] w-[30px] duration-300">
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                            </li>
+                            <!-- Service Item -->
+                        </ul>
+                        <!-- Service List -->
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Service Section End :::... -->
+
+            <!--...::: FAQ Section Start :::... -->
+            
+            <!--...::: FAQ Section End :::... -->
+
+            <!--...::: Testimonial Section Start :::... -->
+            <section class="testimonial-section">
+                <!-- Section Spacer -->
+                <div class="bg-black pb-40 pt-20 xl:pb-[200px] xl:pt-[130px]">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <!-- Section Content Block -->
+                        <div class="jos mb-10 text-center lg:mb-16 xl:mb-20">
+                            <div class="mx-auto max-w-[300px] lg:max-w-[600px] xl:max-w-[680px]">
+                                <h2 class="text-white">Positive feedback from our users</h2>
+                            </div>
+                        </div>
+                        <!-- Section Content Block -->
+
+                        <!-- Testimonial List -->
+                        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+                            <!-- Testimonial Item -->
+                            <div class="jos flex flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white"
+                                data-jos_animation="fade-left" data-jos_delay="0.1">
+                                <div class="block">
+                                    <img src="assets/img/th-1/rating.svg" alt="rating" width="146" height="25" />
+                                </div>
+                                <p>
+                                    “This AI SaaS tool has revolutionized the way we process and
+                                    analyze data. This is a game-changer for our business.”
+                                </p>
+                                <div class="flex items-center gap-x-4">
+                                    <div class="h-[60px] w-[60px] overflow-hidden rounded-full">
+                                        <img src="assets/img/th-1/testimonial-img-1.jpg" alt="testimonial-img"
+                                            width="60" height="60" class="h-full w-full object-cover object-center" />
+                                    </div>
+                                    <div class="flex flex-col gap-y-1">
+                                        <span class="block text-lg font-semibold leading-[1.6]">
+                                            Max Weber
+                                        </span>
+                                        <span class="block text-sm font-light leading-[1.4]">
+                                            HR Manager
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item -->
+                            <!-- Testimonial Item -->
+                            <div class="jos flex flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white"
+                                data-jos_animation="fade-left" data-jos_delay="0.2">
+                                <div class="block">
+                                    <img src="assets/img/th-1/rating.svg" alt="rating" width="146" height="25" />
+                                </div>
+                                <p>
+                                    "It answers immediately, and we've seen a significant
+                                    reduction in response time. Our customers love it and so do
+                                    we!"
+                                </p>
+                                <div class="flex items-center gap-x-4">
+                                    <div class="h-[60px] w-[60px] overflow-hidden rounded-full">
+                                        <img src="assets/img/th-1/testimonial-img-2.jpg" alt="testimonial-img"
+                                            width="60" height="60" class="h-full w-full object-cover object-center" />
+                                    </div>
+                                    <div class="flex flex-col gap-y-1">
+                                        <span class="block text-lg font-semibold leading-[1.6]">
+                                            Douglas Smith
+                                        </span>
+                                        <span class="block text-sm font-light leading-[1.4]">
+                                            Businessman
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item -->
+                            <!-- Testimonial Item -->
+                            <div class="jos flex flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white"
+                                data-jos_animation="fade-left" data-jos_delay="0.3">
+                                <div class="block">
+                                    <img src="assets/img/th-1/rating.svg" alt="rating" width="146" height="25" />
+                                </div>
+                                <p>
+                                    "It is accurate, fast and supports multiple languages
+                                    support. It is a must for any international business
+                                    success."
+                                </p>
+                                <div class="flex items-center gap-x-4">
+                                    <div class="h-[60px] w-[60px] overflow-hidden rounded-full">
+                                        <img src="assets/img/th-1/testimonial-img-3.jpg" alt="testimonial-img"
+                                            width="60" height="60" class="h-full w-full object-cover object-center" />
+                                    </div>
+                                    <div class="flex flex-col gap-y-1">
+                                        <span class="block text-lg font-semibold leading-[1.6]">
+                                            Abraham Maslo
+                                        </span>
+                                        <span class="block text-sm font-light leading-[1.4]">
+                                            Founder @ Marketing Company
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item -->
+                            <!-- Testimonial Item -->
+                            <div class="jos flex flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white"
+                                data-jos_animation="fade-right" data-jos_delay="0.1">
+                                <div class="block">
+                                    <img src="assets/img/th-1/rating.svg" alt="rating" width="146" height="25" />
+                                </div>
+                                <p>
+                                    "Security is a top concern for us, and AI SaaS takes it
+                                    seriously. It's a reassuring layer of protection for our
+                                    organization."
+                                </p>
+                                <div class="flex items-center gap-x-4">
+                                    <div class="h-[60px] w-[60px] overflow-hidden rounded-full">
+                                        <img src="assets/img/th-1/testimonial-img-4.jpg" alt="testimonial-img"
+                                            width="60" height="60" class="h-full w-full object-cover object-center" />
+                                    </div>
+                                    <div class="flex flex-col gap-y-1">
+                                        <span class="block text-lg font-semibold leading-[1.6]">
+                                            Jack Fayol
+                                        </span>
+                                        <span class="block text-sm font-light leading-[1.4]">
+                                            HR Manager
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item -->
+                            <!-- Testimonial Item -->
+                            <div class="jos flex flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white"
+                                data-jos_animation="fade-right" data-jos_delay="0.2">
+                                <div class="block">
+                                    <img src="assets/img/th-1/rating.svg" alt="rating" width="146" height="25" />
+                                </div>
+                                <p>
+                                    "We were concerned about integrating their APIs were well
+                                    documented, and their support team was super cool."
+                                </p>
+                                <div class="flex items-center gap-x-4">
+                                    <div class="h-[60px] w-[60px] overflow-hidden rounded-full">
+                                        <img src="assets/img/th-1/testimonial-img-5.jpg" alt="testimonial-img"
+                                            width="60" height="60" class="h-full w-full object-cover object-center" />
+                                    </div>
+                                    <div class="flex flex-col gap-y-1">
+                                        <span class="block text-lg font-semibold leading-[1.6]">
+                                            Karen Lynn
+                                        </span>
+                                        <span class="block text-sm font-light leading-[1.4]">
+                                            Software Engineer
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item -->
+                            <!-- Testimonial Item -->
+                            <div class="jos flex flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white"
+                                data-jos_animation="fade-right" data-jos_delay="0.3">
+                                <div class="block">
+                                    <img src="assets/img/th-1/rating.svg" alt="rating" width="146" height="25" />
+                                </div>
+                                <p>
+                                    "The return on investment has exceeded our expectations.
+                                    it's an investment in the future of our business."
+                                </p>
+                                <div class="flex items-center gap-x-4">
+                                    <div class="h-[60px] w-[60px] overflow-hidden rounded-full">
+                                        <img src="assets/img/th-1/testimonial-img-6.jpg" alt="testimonial-img"
+                                            width="60" height="60" class="h-full w-full object-cover object-center" />
+                                    </div>
+                                    <div class="flex flex-col gap-y-1">
+                                        <span class="block text-lg font-semibold leading-[1.6]">
+                                            Henry Ochi
+                                        </span>
+                                        <span class="block text-sm font-light leading-[1.4]">
+                                            Bank Manager
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Item -->
+                        </div>
+                        <!-- Testimonial List -->
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Testimonial Section Start :::... -->
+        </main>
+
+        <!--...::: Footer Section Start :::... -->
+        <footer
+            class="relative z-[1] -mt-[70px] overflow-hidden rounded-tl-[30px] rounded-tr-[30px] bg-colorLinenRuffle lg:rounded-tl-[50px] lg:rounded-tr-[50px]">
+            <!-- Footer Top -->
+            <div class="py-[60px] xl:pb-[100px] xl:pt-[130px]">
+                <div class="overflow-hidden">
+                    <!-- Footer Text Slider -->
+                    <div class="footer-text-slider flex w-full items-center gap-x-[30px] whitespace-nowrap">
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            Help Yourself , Improve Your Health
+                        </div>
+                        <!-- Footer Slide Item  -->
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            Help Yourself , Improve Your Health
+                        </div>
+                        <!-- Footer Slide Item  -->
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            Help Yourself , Improve Your Health
+                        </div>
+                        <!-- Footer Slide Item  -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Text Slider -->
+            <!-- Footer Top -->
+            <div class="global-container">
+                <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
+                <!-- Footer Center -->
+                <div
+                    class="lg grid grid-cols-1 gap-10 py-[60px] md:grid-cols-[1fr_auto_auto] xl:grid-cols-[1fr_auto_auto_1fr] xl:gap-20 xl:py-[100px]">
+                    <!-- Footer Widget -->
+                    <div class="flex flex-col gap-y-6">
+                        <a href="index.html" class="inline-block"><img src="assets/img/th-1/logo.png" alt="logo"
+                                width="96" height="24" /></a>
+                        <p>
+                            To empower individuals with instant, intelligent,
+                            and accessible healthcare support through AI—bridging 
+                            the gap between uncertainty and professional care.
+                            We aim to simplify health decisions by providing accurate 
+                            guidance for daily issues, enabling people to take control 
+                            of their well-being with confidence, care, and clarity.
+                        </p>
+                    </div>
+                    <!-- Footer Widget -->
+
+                    <!-- Footer Widget -->
+                    <div class="flex flex-col gap-y-6">
+                        <!-- Footer Title -->
+                        <h4 class="text-[21px] font-semibold capitalize text-black">
+                            Subscribe to our newsletter
+                        </h4>
+                        <!-- Footer Title -->
+                        <!-- Footer Subscriber Form -->
+                        <form action="#" method="post" class="">
+                            <div class="relative h-[50px] max-w-[300px]">
+                                <input type="email" name="newsletter-email" id="newsletter-email"
+                                    placeholder="Enter your email"
+                                    class="p-y-[18px] h-full w-full rounded-[50px] border-[1px] border-black px-[24px] pr-20 outline-none"
+                                    required />
+                                <button type="submit"
+                                    class="absolute right-[5px] top-[50%] inline-block h-10 -translate-y-[50%] rounded-[50px] bg-black px-6 transition-all hover:bg-orange-500">
+                                    <img src="assets/img/th-1/arrow-right-large.svg" alt="newsletter" />
+                                </button>
+                            </div>
+                        </form>
+                        <!-- Footer Subscriber Form -->
+                    </div>
+                    <!-- Footer Widget -->
+                </div>
+                <!-- Footer Center -->
+                <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
+                <!-- Footer Bottom -->
+                <div class="py-9 text-center">
+                    <p>&copy; Copyright 2025, All Rights Reserved by Azzle</p>
+                </div>
+                <!-- Footer Bottom -->
+            </div>
+
+            <!-- Footer Background Shape 1  -->
+            <div
+                class="orange-gradient-2 absolute -top-[290px] right-[90px] -z-[1] h-[406px] w-[406px] -rotate-[58deg] rounded-[406px]">
+            </div>
+
+            <!-- Footer Background Shape 2  -->
+            <div
+                class="orange-gradient-1 absolute -right-[200px] -top-[205px] -z-[1] h-[451px] w-[451px] -rotate-[58deg] rounded-[451px]">
+            </div>
+        </footer>
+        <!--...::: Footer Section End :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js" type="module"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

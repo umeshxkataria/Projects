@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azzle</title>
+    <meta name="description" content="AIMass Tailwind based SASS Template" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/img/favicon.png" />
+
+    <!-- site font -->
+    <link href="assets/fonts/fonts.css" rel="stylesheet" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
+</head>
+
+<body>
+    <div class="page-wrapper relative z-[1] bg-white">
+        <!--...::: Header Start :::... -->
+        <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
+            <div class="global-container">
+                <div class="flex items-center justify-between gap-x-8">
+                    <!-- Header Logo -->
+                    <a href="index.html" class="">
+                        <img src="assets/img/logo-dark.png" alt="AIMass" width="96" height="24" />
+                    </a>
+                    <!-- Header Logo -->
+
+                    <!-- Header Navigation -->
+                    <div class="menu-block-wrapper">
+                        <div class="menu-overlay"></div>
+                        <nav class="menu-block" id="append-menu-header">
+                            <div class="mobile-menu-head">
+                                <div class="go-back">
+                                    <img class="dropdown-icon" src="assets/img/icon-black-long-arrow-right.svg"
+                                        alt="cheveron-right" width="16" height="16" />
+                                </div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close">&times;</div>
+                            </div>
+                            <ul class="site-menu-main">
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Abstract</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link-item">About Us</a>
+                                </li>
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Refrences
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-2">
+                                        <li class="sub-menu--item">
+                                            <a href="research.html">Research Refrences</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="dataset.html">Dataset Used</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link-item">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Header Navigation --> 
+                    <!-- Header User Event -->
+                </div>
+            </div>
+        </header>
+        <!--...::: Header End :::... -->
+
+        <main class="main-wrapper relative overflow-hidden">
+            <!--...::: Breadcrumb Section Start :::... -->
+            <section id="section-breadcrumb">
+                <!-- Section Spacer -->
+                <div class="breadcrumb-wrapper">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <div class="breadcrumb-block">
+                            <h1 class="breadcrumb-title">About Us</h1>
+                            <ul class="breadcrumb-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li>About</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Breadcrumb Section End :::... -->
+
+            <!--...::: About Us Section Start :::... -->
+            <section id="about-hero-section">
+                <!-- Section Spacer -->
+                <div class="mb-20 lg:mb-24">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <!-- Section Content Block -->
+                        <div class="jos mb-10 text-center lg:mb-12 xl:mb-20">
+                            <div class="mx-auto md:max-w-xl lg:max-w-3xl xl:max-w-[950px]">
+                                <h2>We’re building the future of first-response healthcare.</h2>
+                            </div>
+                        </div>
+                        <!-- Section Content Block -->
+
+                        <!-- About Hero Image -->
+                        <div class="jos overflow-hidden rounded-3xl" data-jos_animation="zoom">
+                            <img src="assets/img/about-us banner.png" alt="about-hero-image" width="1296"
+                                height="650" class="h-full w-full object-cover" />
+                        </div>
+                        <!-- About Hero Image -->
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: About Us Section End :::... -->
+
+            <!--...::: About Funfact Start :::... -->
+            <section id="about-funfact-section">
+                <!-- Section Container -->
+                <div class="global-container">
+                    <!-- Counter Scroll -->
+                    <ul class="grid grid-cols-1 gap-10 gap-y-5 text-center sm:grid-cols-2 sm:text-left lg:grid-cols-4">
+                        <!-- Counter Items -->
+                        <li class="jos" data-jos_delay="0.1">
+                            <h3 class="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-[80px]"
+                                data-module="countup">
+                                <span class="start-number" data-countup-number="2">2</span>K+
+                            </h3>
+                            <span class="block text-lg font-normal text-black">User</span>
+                        </li>
+                        <!-- Counter Items -->
+                        <!-- Counter Items -->
+                        <li class="jos" data-jos_delay="0.2">
+                            <h3 class="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-[80px]"
+                                data-module="countup">
+                                <span class="start-number" data-countup-number="95">95</span>%
+                            </h3>
+                            <span class="block text-lg font-normal text-black">Response Accurace</span>
+                        </li>
+                        <!-- Counter Items -->
+                        <!-- Counter Items -->
+                        <li class="jos" data-jos_delay="0.3">
+                            <h3 class="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-[80px]"
+                                data-module="countup">
+                                <span class="start-number" data-countup-number="40">110</span>+
+                            </h3>
+                            <span class="block text-lg font-normal text-black">million Parameter</span>
+                        </li>
+                        <!-- Counter Items -->
+                        <!-- Counter Items -->
+                        <li class="jos" data-jos_delay="0.4">
+                            <h3 class="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xl:text-[80px]"
+                                data-module="countup">
+                                <span class="start-number" data-countup-number="73">10</span>+
+                            </h3>
+                            <span class="block text-lg font-normal text-black">Team Members</span>
+                        </li>
+                        <!-- Counter Items -->
+                    </ul>
+                    <!-- Counter Scroll -->
+                </div>
+                <!-- Section Container -->
+            </section>
+            <!--...::: About Funfact Start :::... -->
+
+            <!--...::: Content Section Start :::... -->
+            <section id="content-section-2">
+                <!-- Section Spacer -->
+                <div class="pb-20 pt-20 xl:pb-[150px] xl:pt-[130px]">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <div
+                            class="grid grid-cols-1 items-center gap-12 md:grid-cols-2 xl:grid-cols-[minmax(0,_1.3fr)_1fr]">
+                            <!-- Content Left Block -->
+                            <div class="jos order-2 overflow-hidden rounded-md" data-jos_animation="fade-left">
+                                <img src="assets/img/gifs/about-us.gif" alt="content-image-2" width="526"
+                                    height="550" class="h-auto w-full" />
+                            </div>
+                            <!-- Content Left Block -->
+                            <!-- Content Right Block -->
+                            <div class="jos order-1" data-jos_animation="fade-right">
+                                <!-- Section Content Block -->
+                                <div class="mb-6">
+                                    <h2>Delivering the best solutions with AI</h2>
+                                </div>
+                                <!-- Section Content Block -->
+                                <div class="text-lg leading-[1.4] lg:text-[21px]">
+                                    <p class="mb-7 last:mb-0">
+                                        Our mission has a simple idea in the heart - everyone is entitled to immediate, 
+                                        reliable and intelligent health care, even where they are.
+                                        We don't just make a chatbot; We are building a health companion who listens, 
+                                        understand and guides users to feel better before a doctor.
+                                    </p>
+                                    <a href="contact.html"
+                                        class="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white">Get
+                                        in touch</a>
+                                </div>
+                            </div>
+                            <!-- Content Right Block -->
+                        </div>
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Content Section End :::... -->
+
+            <!--...::: Core Value Section Start :::... -->
+            <section id="core-value">
+                <!-- Section Spacer -->
+                <div
+                    class="jos mx-5 rounded-[50px] bg-black px-[20px] py-20 sm:px-[50px] md:mx-[50px] lg:px-[100px] xl:py-[130px]">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <!-- Section Content Block -->
+                        <div class="mb-10 text-center lg:mb-12 xl:mb-20">
+                            <div class="mx-auto md:max-w-xl lg:max-w-3xl xl:max-w-[745px]">
+                                <h2 class="text-white">The core values behind our work</h2>
+                            </div>
+                        </div>
+                        <!-- Section Content Block -->
+
+                        <!-- Horizontal Separator -->
+                        <div class="mb-6 h-[4px] w-full rounded bg-colorCodGray sm:mb-0"></div>
+                        <!-- Core Value list -->
+                        <ul class="grid grid-cols-1 justify-between gap-6 md:grid-cols-2 xxl:flex xxl:flex-nowrap">
+                            <!-- Core Value Item -->
+                            <li
+                                class="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorOrangyRed after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
+                                <div class="mb-3 flex items-center gap-x-3 md:mb-6">
+                                    <div class="h-[30px] w-[30px]">
+                                        <img src="assets/img/th-1/core-value-icon-1.svg" alt="core-value-icon-1"
+                                            width="30" height="30" />
+                                    </div>
+                                    <h4 class="flex-1 text-white">Innovation</h4>
+                                </div>
+                                <p class="text-lg text-white lg:text-[21px]">
+                                    We’re committed to exploring new technologies, and finding
+                                </p>
+                            </li>
+                            <!-- Core Value Item -->
+                            <!-- Core Value Item -->
+                            <li
+                                class="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorOrangyRed after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
+                                <div class="mb-3 flex items-center gap-x-3 md:mb-6">
+                                    <div class="h-[30px] w-[30px]">
+                                        <img src="assets/img/th-1/core-value-icon-2.svg" alt="core-value-icon-2"
+                                            width="30" height="30" />
+                                    </div>
+                                    <h4 class="flex-1 text-white">Excellence</h4>
+                                </div>
+                                <p class="text-lg text-white lg:text-[21px]">
+                                    We set high standards for our work & we are dedicated team
+                                </p>
+                            </li>
+                            <!-- Core Value Item -->
+                            <!-- Core Value Item -->
+                            <li
+                                class="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorOrangyRed after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
+                                <div class="mb-3 flex items-center gap-x-3 md:mb-6">
+                                    <div class="h-[30px] w-[30px]">
+                                        <img src="assets/img/th-1/core-value-icon-3.svg" alt="core-value-icon-3"
+                                            width="30" height="30" />
+                                    </div>
+                                    <h4 class="flex-1 text-white">Collaboration</h4>
+                                </div>
+                                <p class="text-lg text-white lg:text-[21px]">
+                                    We believe in the power of collaboration, working closely
+                                </p>
+                            </li>
+                            <!-- Core Value Item -->
+                            <!-- Core Value Item -->
+                            <li
+                                class="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-colorOrangyRed after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100">
+                                <div class="mb-3 flex items-center gap-x-3 md:mb-6">
+                                    <div class="h-[30px] w-[30px]">
+                                        <img src="assets/img/th-1/core-value-icon-4.svg" alt="core-value-icon-4"
+                                            width="30" height="30" />
+                                    </div>
+                                    <h4 class="flex-1 text-white">Integrity</h4>
+                                </div>
+                                <p class="text-lg text-white lg:text-[21px]">
+                                    We uphold the highest ethical honesty in all our
+                                    interactions
+                                </p>
+                            </li>
+                            <!-- Core Value Item -->
+                        </ul>
+                        <!-- Core Value list -->
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Core Value Section End :::... -->
+
+        </main>
+
+        <!--...::: Footer Section Start :::... -->
+        <footer
+            class="relative z-[1] -mt-[70px] overflow-hidden rounded-tl-[30px] rounded-tr-[30px] bg-colorLinenRuffle lg:rounded-tl-[50px] lg:rounded-tr-[50px]">
+            <!-- Footer Top -->
+            <div class="py-[60px] xl:pb-[100px] xl:pt-[130px]">
+                <div class="overflow-hidden">
+                    <!-- Footer Text Slider -->
+                    <div class="footer-text-slider flex w-full items-center gap-x-[30px] whitespace-nowrap">
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            Help Yourself , Improve Your Health
+                        </div>
+                        <!-- Footer Slide Item  -->
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            Help Yourself , Improve Your Health
+                        </div>
+                        <!-- Footer Slide Item  -->
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            Help Yourself , Improve Your Health
+                        </div>
+                        <!-- Footer Slide Item  -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Text Slider -->
+            <!-- Footer Top -->
+            <div class="global-container">
+                <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
+                <!-- Footer Center -->
+                <div
+                    class="lg grid grid-cols-1 gap-10 py-[60px] md:grid-cols-[1fr_auto_auto] xl:grid-cols-[1fr_auto_auto_1fr] xl:gap-20 xl:py-[100px]">
+                    <!-- Footer Widget -->
+                    <div class="flex flex-col gap-y-6">
+                        <a href="index.html" class="inline-block"><img src="assets/img/th-1/logo.png" alt="logo"
+                                width="96" height="24" /></a>
+                        <p>
+                            To empower individuals with instant, intelligent,
+                            and accessible healthcare support through AI—bridging 
+                            the gap between uncertainty and professional care.
+                            We aim to simplify health decisions by providing accurate 
+                            guidance for daily issues, enabling people to take control 
+                            of their well-being with confidence, care, and clarity.
+                        </p>
+                    </div>
+                    <!-- Footer Widget -->
+
+                    <!-- Footer Widget -->
+                    <div class="flex flex-col gap-y-6">
+                        <!-- Footer Title -->
+                        <h4 class="text-[21px] font-semibold capitalize text-black">
+                            Subscribe to our newsletter
+                        </h4>
+                        <!-- Footer Title -->
+                        <!-- Footer Subscriber Form -->
+                        <form action="#" method="post" class="">
+                            <div class="relative h-[50px] max-w-[300px]">
+                                <input type="email" name="newsletter-email" id="newsletter-email"
+                                    placeholder="Enter your email"
+                                    class="p-y-[18px] h-full w-full rounded-[50px] border-[1px] border-black px-[24px] pr-20 outline-none"
+                                    required />
+                                <button type="submit"
+                                    class="absolute right-[5px] top-[50%] inline-block h-10 -translate-y-[50%] rounded-[50px] bg-black px-6 transition-all hover:bg-orange-500">
+                                    <img src="assets/img/th-1/arrow-right-large.svg" alt="newsletter" />
+                                </button>
+                            </div>
+                        </form>
+                        <!-- Footer Subscriber Form -->
+                    </div>
+                    <!-- Footer Widget -->
+                </div>
+                <!-- Footer Center -->
+                <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
+                <!-- Footer Bottom -->
+                <div class="py-9 text-center">
+                    <p>&copy; Copyright 2025, All Rights Reserved by Azzle</p>
+                </div>
+                <!-- Footer Bottom -->
+            </div>
+
+            <!-- Footer Background Shape 1  -->
+            <div
+                class="orange-gradient-2 absolute -top-[290px] right-[90px] -z-[1] h-[406px] w-[406px] -rotate-[58deg] rounded-[406px]">
+            </div>
+
+            <!-- Footer Background Shape 2  -->
+            <div
+                class="orange-gradient-1 absolute -right-[200px] -top-[205px] -z-[1] h-[451px] w-[451px] -rotate-[58deg] rounded-[451px]">
+            </div>
+        </footer>
+        <!--...::: Footer Section End :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js" type="module"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
