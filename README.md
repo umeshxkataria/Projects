@@ -10,16 +10,16 @@ Now? Welcome to my **Projects Vault** — a clean structure where every build ha
 
 ---
 
-<pre> 📂 Folder Structure
-projects/
-    ├── vibecoded/
-    │ └── Personal builds with raw ideas, chaotic prototypes & pure vibes
-    ├── web2/
-    │ └── Full-stack & frontend projects (React, Node.js, APIs, etc.)
-    ├── web3/
-    │ └── Blockchain-based builds (dApps, smart contracts, NFTs, etc.)
-    ├── designing/
-    │ └──UI/UX explorations, Figma files, and creative workflows</pre>
+<pre>📂 Folder Structure
+    projects/
+        ├── vibecoded/
+        │ └── Personal builds with raw ideas, chaotic prototypes & pure vibes
+        ├── web2/
+        │ └── Full-stack & frontend projects (React, Node.js, APIs, etc.)
+        ├── web3/
+        │ └── Blockchain-based builds (dApps, smart contracts, NFTs, etc.)
+        ├── designing/
+        │ └──UI/UX explorations, Figma files, and creative workflows</pre>
 
 ---
 
