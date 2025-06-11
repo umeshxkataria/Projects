@@ -1,4 +1,9 @@
-# 🧠 Projects Vault
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/134c2853-19eb-4628-a020-851afedcf683" alt="Projects Vault Banner" />
+</p>
+
+# 🧠 Projects Vault!
+
 
 > Coffee without coffee? That’s what a project repo without structure is.  
 > This is where all the chaos gets organized.
@@ -23,25 +28,14 @@ Now? Welcome to my **Projects Vault** — a clean structure where every build ha
 
 ---
 
-## 🔍 What's Inside
-
-- **`vibecoded/`** — Personal builds, chaos-first prototypes, and experimental drops  
-- **`web2/`** — Traditional web projects using modern stacks  
-- **`web3/`** — Blockchain-based applications and smart contract playgrounds  
-- **`designing/`** — UI/UX mockups, Figma flows, and design systems
-
----
-
----
-
 ## 🔗 Explore Each Layer
 
-| Folder        | Description                                      | Preview |
-|---------------|--------------------------------------------------|---------|
-| [`vibecoded/`](./vibecoded)   | Where structure breaks and raw energy builds | 🎛️ |
-| [`web2/`](./web2)             | Full-stack + frontend projects               | 🌐 |
-| [`web3/`](./web3)             | Blockchain, dApps, NFTs, smart contracts     | 🔗 |
-| [`designing/`](./designing)   | UI/UX explorations, Figma files & motion     | 🎨 |
+| Folder        | Description                                      |
+|---------------|--------------------------------------------------|
+| [`vibecoded/`](./vibecoded)   | Where structure breaks and raw energy builds | 
+| [`web2/`](./web2)             | Full-stack + frontend projects               | 
+| [`web3/`](./web3)             | Blockchain, dApps, NFTs, smart contracts     | 
+| [`designing/`](./designing)   | UI/UX explorations, Figma files & motion     | 
 
 ---
 
@@ -66,6 +60,4 @@ Open an issue, drop a DM, or fork anything that vibes with you.
 ---
 
 > 🧠 Projects Vault — where creativity is coded, designed, and archived with intent.
-
-
-> ⚡ From chaotic clutter to clean curation — structured to scale, built to vibe.
+    > ⚡ From chaotic clutter to clean curation — structured to scale, built to vibe.
